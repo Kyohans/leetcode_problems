@@ -1,5 +1,5 @@
 CC=clang
-CFLAGS=-g -Wall -I../../include -Iinclude/structs
+CFLAGS=-g -Wall -I../../include 
 
 BINDIR=bin
 SRCDIR=src
