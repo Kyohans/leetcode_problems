@@ -2,7 +2,6 @@ include common.mk
 
 all:
 	@echo "Must specify either a challenge or clean task"
-	@echo "$(STRUCTS)"
 
 clean:
 	@rm $(BINDIR)/solution
