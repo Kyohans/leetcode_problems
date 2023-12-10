@@ -1,8 +1,9 @@
 CC=clang
 CFLAGS=-g -Wall -I../../include 
 
-BINDIR=bin
+BINDIR=$(abspath bin)
 SRCDIR=src
+PROBLEMDIR=$(SRCDIR)/problems
 STRUCTS=$(wildcard $(SRCDIR)/structs/*.c)
-TARGET=../../$(BINDIR)/solution
+TARGET=$(BINDIR)/solution
 
