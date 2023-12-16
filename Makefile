@@ -14,3 +14,5 @@ number_of_set_bits:
 	@mkdir -p bin && $(MAKE) -C $(PROBLEMDIR)/number_of_set_bits
 find_unique_binary_string:
 	@mkdir -p bin && $(MAKE) -C $(PROBLEMDIR)/find_unique_binary_string
+minimum_window_substring:
+	@mkdir -p bin && $(MAKE) -C $(PROBLEMDIR)/minimum_window_substring
