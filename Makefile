@@ -16,3 +16,5 @@ find_unique_binary_string:
 	@mkdir -p bin && $(MAKE) -C $(PROBLEMDIR)/find_unique_binary_string
 minimum_window_substring:
 	@mkdir -p bin && $(MAKE) -C $(PROBLEMDIR)/minimum_window_substring
+int2roman:
+	@$(MAKE) -C $(PROBLEMDIR)/int2roman
